@@ -1,0 +1,51 @@
+.ratboy{
+	background-color: #FF00FF;
+}
+
+
+.text-glow {
+   font-size:4em;
+   color: #FF0000;
+   font-family:Arial;
+   }
+
+.text-glow:hover, .text-glow:focus, .text-glow:active {
+   -webkit-stroke-width: 5.3px;
+   -webkit-stroke-color: #FF0000;
+   -webkit-fill-color: #FF0000;
+   text-shadow: 1px 0px 20px red;
+   -webkit-transition: width 0.3s; /*Safari & Chrome*/
+   transition: width 0.3s;
+   -moz-transition: width 0.3s; /* Firefox 4 */
+   -o-transition: width 0.3s; /* Opera */
+   }
+
+ .glo-boys{
+ 	font-size:4em;
+   	color: #FF0000;
+   	font-family:Arial;
+ 	-webkit-animation: glowAnim 1s linear infinite;
+ 	animation: glowAnim 1s linear infinite;
+ }
+
+ @-webkit-keyframes glowAnim{
+ 	0% {text-shadow: 0px 0px 0px red; opacity: 0}
+ 	100% {text-shadow: 1px 200px 200px red; opacity: 1}
+ }
+
+ @keyframes glowAnim{
+ 	0% {text-shadow: 0px 0px 0px red; opacity: 0}
+ 	100% {text-shadow: 1px 0px 20px red; opacity: 1}
+ }
+
+ @-webkit-keyframes blinkAnim{
+ 0% 	{opacity: 1;}
+ 50%	{opacity: 0;}
+ 100	{opacity: 1;}
+ }
+
+ @keyframes blinkAnim{
+ 0% 	{opacity: 1;}
+ 50%	{opacity: 0;}
+ 100	{opacity: 1;}
+ }
