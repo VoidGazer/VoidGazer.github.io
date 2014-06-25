@@ -61,6 +61,12 @@
 	background-image: url('gifs/flame.gif');
 }
 
+img.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .text-glow {
    font-size:4em;
    color: #FF0000;
